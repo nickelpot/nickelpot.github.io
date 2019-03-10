@@ -5,25 +5,25 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Can Not Find Jekyll Command On Terminal &#8211; Nickelpot in Wonderland</title>
+<title>[Swift 5 Beta] 01. Version Compatibility &#8211; Nickelpot in Wonderland</title>
 <meta name="description" content="Here is Nickelpot's blog.">
-<meta name="keywords" content="Jekyll, macOS, memo">
+<meta name="keywords" content="Swift5, translation">
 
 
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Can Not Find Jekyll Command On Terminal">
+<meta property="og:title" content="[Swift 5 Beta] 01. Version Compatibility">
 <meta property="og:description" content="Here is Nickelpot's blog.">
-<meta property="og:url" content="http://localhost:4000/run-jekyll-server/">
+<meta property="og:url" content="http://localhost:4000/swift5-01/">
 <meta property="og:site_name" content="Nickelpot in Wonderland">
 
 
 
 
 
-<link rel="canonical" href="http://localhost:4000/run-jekyll-server/">
+<link rel="canonical" href="http://localhost:4000/swift5-01/">
 <link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Nickelpot in Wonderland Feed">
 
 <!-- http://t.co/dKP3o1e -->
@@ -111,7 +111,7 @@
 <div class="entry-header">
   <div class="image-credit">Photo by <a href="https://nickelpot.github.io">Nickelpot</a></div><!-- /.image-credit -->
   <div class="entry-image">
-    <img src="http://localhost:4000/images/title-background-4.jpg" alt="Can Not Find Jekyll Command On Terminal">
+    <img src="http://localhost:4000/images/title-background-4.jpg" alt="[Swift 5 Beta] 01. Version Compatibility">
   </div><!-- /.entry-image -->
 </div><!-- /.entry-header -->
 
@@ -121,7 +121,7 @@
     <header class="header-title">
       <div class="header-title-wrap">
         
-          <h1 class="entry-title"><a href="http://localhost:4000/run-jekyll-server/" rel="bookmark" title="Can Not Find Jekyll Command On Terminal">Can Not Find Jekyll Command On Terminal</a></h1>
+          <h1 class="entry-title"><a href="http://localhost:4000/swift5-01/" rel="bookmark" title="[Swift 5 Beta] 01. Version Compatibility">[Swift 5 Beta] 01. Version Compatibility</a></h1>
         
         <h2><span class="entry-date date published"><time datetime="2019-03-09T00:00:00-05:00">March 09, 2019</time></span></h2>
         
@@ -134,31 +134,30 @@ Reading time ~1 minute
       </div><!-- /.header-title-wrap -->
     </header>
     <div class="entry-content">
-      <p>When I installed Jekyll and other gems, I changed my gem path.</p>
+      <h2 id="버전-호환성">버전 호환성</h2>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">export </span><span class="nv">GEM_HOME</span><span class="o">=</span><span class="nv">$HOME</span>/gems
-<span class="nv">$ </span><span class="nb">export </span><span class="nv">PATH</span><span class="o">=</span><span class="nv">$HOME</span>/gems/bin:<span class="nv">$PATH</span>
-</code></pre></div></div>
+<p>이 책은 Swift 5에 대하여 기술되어 있으며, Swift 5는 Xcode 10.2에 포함되어 있는 기본 버전입니다. 여러분은 빌드 타겟으로 Swift 5, Swift 4.2, 그리고 Swift 4로 작성된 코드 모두 Xcode 10.2에서 사용할 수 있습니다.</p>
 
-<p>After set everything, when I start new terminal and run Jekyll server, I get this message.</p>
+<p>여러분이 Swift 4와 Swift 4.2로 작성된 코드를 Xcode 10.2로 빌드하려 할 때 Swift 5의 기능을 사용할 수 있습니다. 이는 아래 변경 사항은 Swift 5 코드에서만 적용됨을 의미합니다:</p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">-bash</span>: jekyll: <span class="nb">command </span>not found
-</code></pre></div></div>
+<ul>
+  <li><code class="highlighter-rouge">try?</code>는 이미 옵셔널(optionls)을 반환하는 표현식에 추가 옵셔널(optionality)을 적용할 수 없습니다.</li>
+  <li>큰 범위 정수의 리터럴(literal) 초기화를 표현할 때 올바른 정수 유형으로 추정됩니다. 예를 들어, <code class="highlighter-rouge">UInt64(0xffff_ffff_ffff_ffff)</code>는 오버플로우로 처리되기 보다 올바른 정수 유형으로 추정됩니다.</li>
+</ul>
 
-<p>I set again gem path and try Jekyll server. It works well.</p>
+<p>Swift 5를 타겟으로 작성된 코드는 Swift 4.2, Swift 4의 타겟에도 의존 가능하며, 그 반대도 가능합니다. 말인즉슨, 만약 여러분이 다중 프레임워크로 구성된 대규모 프로젝트를 수행 하더라도 Swift 4에서 Swift 5로 각각 마이그레이션 할 수 있습니다.</p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>jekyll serve
-</code></pre></div></div>
+<p class="notice">이 글은 2019년 1월 24일 출간 된 The Swift Programming Language (Swift 5 Beta)를 직접 번역한 글입니다. Dictionary 앱, Google, Google 번역기의 도움으로 작성되었으며 오역 및 오탈자에 대한 피드백은 언제든지 환영합니다. <br /><br /> This article is a Korean translation of The Swift Programming Language (Swift 5 Beta) published 24 January, 2019. It is written with the help of Dictionary app, Google, and Google Translator. Feedback on mistranslation and typographical errors is always welcome. <br /><br /><a rel="cc:attributionURL" property="cc:attributionName" href="https://itunes.apple.com/kr/book/the-swift-programming-language-swift-5-beta/id1002622538?l=en&amp;mt=11">Read The Swift Programming Language (Swift 5 Beta)</a></p>
 
       <footer class="entry-meta">
-        <span class="entry-tags"><a href="http://localhost:4000/tags/#Jekyll" title="Pages tagged Jekyll" class="tag"><span class="term">Jekyll</span></a><a href="http://localhost:4000/tags/#macOS" title="Pages tagged macOS" class="tag"><span class="term">macOS</span></a><a href="http://localhost:4000/tags/#memo" title="Pages tagged memo" class="tag"><span class="term">memo</span></a></span>
+        <span class="entry-tags"><a href="http://localhost:4000/tags/#Swift5" title="Pages tagged Swift5" class="tag"><span class="term">Swift5</span></a><a href="http://localhost:4000/tags/#translation" title="Pages tagged translation" class="tag"><span class="term">translation</span></a></span>
         <span>Updated on <span class="entry-date date updated"><time datetime="2019-03-09">March 09, 2019</time></span></span>
         <span class="author vcard"><span class="fn">Nickelpot</span></span>
         <div class="social-share">
   <ul class="socialcount socialcount-small inline-list">
-    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/run-jekyll-server/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
-    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://localhost:4000/run-jekyll-server/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
-    <li class="googleplus"><a href="https://plus.google.com/share?url=http://localhost:4000/run-jekyll-server/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/swift5-01/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://localhost:4000/swift5-01/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=http://localhost:4000/swift5-01/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
   </ul>
 </div><!-- /.social-share -->
       </footer>
@@ -167,22 +166,22 @@ Reading time ~1 minute
     <div class="read-more">
   
     <div class="read-more-header">
-      <a href="http://localhost:4000/readability-feature-post/" class="read-more-btn">Read More</a>
+      <a href="http://localhost:4000/swift5-00/" class="read-more-btn">Read More</a>
     </div><!-- /.read-more-header -->
     <div class="read-more-content">
-      <h3><a href="http://localhost:4000/swift5-02-00-swift-tour/" title="[Swift 5 Beta] 02-00. A Swift Tour">[Swift 5 Beta] 02-00. A Swift Tour</a></h3>
-      <p>## Swift 여행 시작하기전통적인 제안은 새 언어를 사용한 첫 프로그램으로 화면에 "Hello, world!"를 출력하는 것입니다. Swift는 다음과 같이 간단하게 출력...&hellip;<a href="http://localhost:4000/swift5-02-00-swift-tour/"> Continue reading</a></p>
+      <h3><a href="http://localhost:4000/swift5-02-01/" title="[Swift 5 Beta] 02-01. Simple Values">[Swift 5 Beta] 02-01. Simple Values</a></h3>
+      <p>## Swift 여행 시작하기### 기본값```swiftprint("Hello, world!")// Prints "Hello, world!"```그어얽**NOTE**  Xco...&hellip;<a href="http://localhost:4000/swift5-02-01/"> Continue reading</a></p>
     </div><!-- /.read-more-content -->
   
   <div class="read-more-list">
     
       <div class="list-item">
-        <h4><a href="http://localhost:4000/swift5-01-version-compatibility/" title="[Swift 5 Beta] 01. Version Compatibility">[Swift 5 Beta] 01. Version Compatibility</a></h4>
+        <h4><a href="http://localhost:4000/swift5-02-00/" title="[Swift 5 Beta] 02-00. A Swift Tour">[Swift 5 Beta] 02-00. A Swift Tour</a></h4>
         <span>Published on March 09, 2019</span>
       </div><!-- /.list-item -->
     
       <div class="list-item">
-        <h4><a href="http://localhost:4000/swift5-00-about-swift/" title="[Swift 5 Beta] 00. About Swift">[Swift 5 Beta] 00. About Swift</a></h4>
+        <h4><a href="http://localhost:4000/swift5-00/" title="[Swift 5 Beta] 00. About Swift">[Swift 5 Beta] 00. About Swift</a></h4>
         <span>Published on March 09, 2019</span>
       </div><!-- /.list-item -->
     
