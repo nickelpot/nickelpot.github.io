@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Can Not Find Jekyll Command On Terminal
+title: Jekyll Command On Terminal
 description: 
 modified: 2019-03-09
 tags: [Jekyll, macOS, memo]
