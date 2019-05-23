@@ -38,7 +38,7 @@ This post is information about English technical interviews and coding tests. I 
 
 ### LeetCode
 
-![Smithsonian Image](/images/2019-05-23-영Website-for-the-English-Technical-Interview/leetcode.jpg)
+![Smithsonian Image](/images/2019-05-23-Website-for-the-English-Technical-Interview/leetcode.jpg)
 {: .image}
 
 다양한 난이도, 다양한 주제의 코딩 문제풀이를 할 수 있습니다. LeetCode 사용 전 검색해 보면 LeetCode와 HackerRank의 비교 정보가 가장 많았습니다. 그 중에서 좀 더 알록달록 해 보이는 LeetCode를 먼저 겪어보자 했습니다. GitHub 처럼 모내기도 할 수 있고 Facebook의 많은 관련 직종 분들이 제일 많이 사용하시는 듯 하여 저도 애용하는데 괜찮습니다. Codility와 달리 결과 저장이 되며 내 코드가 다른사람들에 비해 얼마나 좋은지 나쁜지도 확인 가능합니다. 글로벌 대기업 모의인터뷰도 자주 올라옵니다. 400개 쯤 풀면 구글에 입사할 수준이 된다는데...
