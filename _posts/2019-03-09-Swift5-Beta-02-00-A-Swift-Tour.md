@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Swift 5 Beta] 02-00. A Swift Tour"
+title: "[Swift 5 Beta] 02.00. A Swift Tour"
 description: 
 modified: 2019-03-09
 tags: [Swift5, translation]

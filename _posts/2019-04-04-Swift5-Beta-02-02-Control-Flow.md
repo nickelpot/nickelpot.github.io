@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Swift 5 Beta] 02-02. Control Flow"
+title: "[Swift 5 Beta] 02.02. Control Flow"
 description: 
 modified: 2019-04-05
 tags: [Swift5, translation]

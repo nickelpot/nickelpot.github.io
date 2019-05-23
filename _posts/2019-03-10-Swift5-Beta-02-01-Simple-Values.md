@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Swift 5 Beta] 02-01. Simple Values"
+title: "[Swift 5 Beta] 02.01. Simple Values"
 description: 
 modified: 2019-03-10
 tags: [Swift5, translation]
