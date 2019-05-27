@@ -63,7 +63,7 @@ HTML, JavaScript, SQL 등 웹과 데이터베이스 관련한 기본 자료들�
 
 #### 정보 추가
 
-w3schools는 부정확한 정보를 많이 포함하고 있습니다. 대신 MDN Web Docs(<a href="https://developer.mozilla.org">https://developer.mozilla.org</a>)를 사용하는 것을 추천드립니다. - 개발자영어 유정협님 (2019-05-27)
+w3schools는 부정확한 정보를 많이 포함하고 있어 대신 MDN Web Docs(<a href="https://developer.mozilla.org">https://developer.mozilla.org</a>)를 사용하는 것을 추천드린다고 합니다. 개발자영어 유정협님 정보 감사합니다 :) (2019-05-27)
 
 <a href="https://www.w3schools.com">https://www.w3schools.com</a>
 
