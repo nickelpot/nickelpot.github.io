@@ -2,7 +2,7 @@
 layout: post
 title: "영어 기술면접에 도움 될 만한 곳"
 description: 
-modified: 2019-05-23
+modified: 2019-05-27
 tags: [interview, codingtest]
 image:
   path: /images/title-background-4.jpg
@@ -60,6 +60,10 @@ This post is information about English technical interviews and coding tests. I 
 {: .image}
 
 HTML, JavaScript, SQL 등 웹과 데이터베이스 관련한 기본 자료들이 있습니다. 간단한 테스트도 할 수 있습니다. SQL 덕분에 알게되었는데 입문자용으로 간결하게 정리된 내용이 많습니다.
+
+#### 정보 추가
+
+w3schools는 부정확한 정보를 많이 포함하고 있습니다. 대신 MDN Web Docs(<a href="https://developer.mozilla.org">https://developer.mozilla.org</a>)를 사용하는 것을 추천드립니다. - 개발자영어 유정협님 (2019-05-27)
 
 <a href="https://www.w3schools.com">https://www.w3schools.com</a>
 
