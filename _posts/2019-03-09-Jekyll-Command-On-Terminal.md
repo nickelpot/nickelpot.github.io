@@ -7,7 +7,7 @@ tags: [Jekyll, macOS, memo]
 image:
   path: /images/title-background-4.jpg
   feature: title-background-4.jpg
-  credit: Nickelpot
+  credit: nickelpot
   creditlink: https://nickelpot.github.io
 ---
 

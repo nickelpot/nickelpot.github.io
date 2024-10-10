@@ -7,7 +7,7 @@ tags: [Swift5, translation]
 image:
   path: /images/title-background-4.jpg
   feature: title-background-4.jpg
-  credit: Nickelpot
+  credit: nickelpot
   creditlink: https://nickelpot.github.io
 ---
 
